@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import footer_logo from "../Assests/footer_logo.png";
+import footer_logo from "../Assests/logo.png";
 import instagram_logo from "../Assests/instagram.svg";
 import pinterest_logo from "../Assests/pinterest.svg";
 import whatsapp_logo from "../Assests/whatsapp.svg";
@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-logo">
         <img src={footer_logo} alt="" />
-        <p>SHOPPER</p>
+        <p>ANYBUY</p>
       </div>
       <ul className="footer-links">
         <li>Company</li>
