@@ -40,6 +40,7 @@
 }
 .cartitems-total{
     flex: 1;
+    text-align: left;
     display: flex;
     flex-direction: column;
     margin-right: 200px;
@@ -47,9 +48,11 @@
 }
 .cartitems-total-items{
     display: flex;
+    text-align: left;
     justify-content: space-between;
     padding: 15px 0px;
 }
+
 .cartitems-total button{
     width: 262px;
     height: 58px;
